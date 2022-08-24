@@ -9,10 +9,24 @@ Planning:
 4. After a grid be clicked it can't be clicked again (blocked)
 5. It needs to alternate turns, the same player can't do consecutive click
 6. The turns need to keep alternating until all 9 grid has been clicked or there is a winner.
-7. Then I need to check if there is 3x 0 or x in a row
+7. Then I need to check if there is 3x 0 or x align in a row, a column, or diagonally
 8. If there is display: the winner.
 9. If not display: Draw.
-10. Restart the game clicking in any grid again.
+10. Restart the game clicking in a button.
+
+My tasks
+
+1. Create a HTML document and a CSS style file
+2. Header with tittle and welcome phrase
+3. A div container and 9 divs or input inside to be the grids
+4. Create a button to restart the game
+5. Create a css style doc
+6. Do all style in the CSS file
+7. Create a JS file
+8. Create a constant variable for our 0 and x
+9. Use querySelector to select DOM object (divs)
+10. Add x or 0 in the DOM object
+
 
 -->
 
@@ -39,5 +53,29 @@ Planning:
     <div class="grid8">8</div>
     <div class="grid9">9</div>
   </div>
+  <button class="reset-button">Play Again</button>
 </body>
 </html>
+
+<script>
+
+//First let me try do it with colors, that I already know. 
+var counter = 0
+var container = document.querySelector('.container')
+container.addEventListener('click', function(event) {
+  let box = event.target
+  if (box.tagName === 'DIV') {
+    if (counter === 0) {
+      box.style.backgroundColor = 'purple'
+      counter = 1
+    } else {
+      box.style.backgroundColor = 'pink'
+      counter = 0
+    }
+  }
+})
+// Ok, the basic level is working. 
+
+
+
+</script>

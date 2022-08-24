@@ -5,3 +5,46 @@
   grid-template-rows: 33% 33% 33%;
   max-width: 300px;
 }
+
+.grid1 {
+  border: 3px solid black;
+  height: 150px;
+  }
+
+.grid2 {
+  border: 3px solid black;
+  height: 150px;
+}
+
+.grid3 {
+  border: 3px solid black;
+  height: 150px;
+}
+
+.grid4 {
+  border: 3px solid black;
+  height: 150px;
+  }
+
+.grid5 {
+  border: 3px solid black;
+  height: 150px;
+  }
+
+.grid6 {
+  border: 3px solid black;
+  height: 150px;
+}
+
+.grid7 {
+  border: 3px solid black;
+  height: 150px;
+  }
+  .grid8 {
+    border: 3px solid black;
+    height: 150px;
+  }
+  .grid9 {
+    border: 3px solid black;
+    height: 150px;
+    }
