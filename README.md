@@ -11,15 +11,6 @@ Tic-tac-toe, Xs and Os is a classic paper-and-pencil game for two players who ta
 * It is a easy and simple game, you  just need to click in one off the round spaces to start play.
 * Try to make a sequence of marks in a horizontal, vertical, or diagonal to win.
 
-```
-$ git clone my-awesome-app
-
-$ cd my-awesome-app
-
-$ node app.js
-
-```
-* Add in-app screenshots
 
 ## ✏️ Planning & Problem Solving
 
@@ -35,7 +26,7 @@ $ node app.js
 
 ## 😱 Bugs to fix 💩
 
-* If many occur in the external div it'll break. 
+* If you click too fast or too many times in the external div it'll break. 
 
 ### 😭 Lessons learnt
 
