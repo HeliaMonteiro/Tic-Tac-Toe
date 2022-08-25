@@ -5,11 +5,6 @@ body {
   background-image: url('https://media2.giphy.com/media/elcAvTEXkG02d17sr7/giphy.gif?cid=ecf05e47m55f2kbjnchkj63963jfbup6j1jkk0nhzn9m1nlb&rid=giphy.gif&ct=g');
   background-repeat: no-repeat;
   background-size: cover;
- 
- 
-
-
-  
 }
 
 .container {
@@ -21,32 +16,30 @@ body {
   color: white;
 }
 
-h1 {
-  font-size: 5rem;
-  margin: 50px;
-  color: #fff;
-  text-shadow:
-  0 0 7px #fff,
-  0 0 10px #fff,
-  0 0 21px #fff,
-  0 0 42px #0ff,
-  0 0 82px #0ff,
-  0 0 92px #0ff,
-  0 0 80px #0ff,
-  0 0 100px #0ff;
+h1   {
+color: #fff;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;   
+font-size: 3rem;
+animation: pulsate 1.5s infinite alternate;  
 }
+
 
 p {
   color: #FBCB0A;
-  font-size: 1.5rem; 
+  font-size: 1.8rem;
 }
+
+
 
 .grid {
   font-size: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 30px;
   height: 90px;
   width: 90px;
   border-radius: 80%;
@@ -59,14 +52,77 @@ p {
   margin-bottom: 50px;
  }
 
-.reset-button {
-  color:5800FF;
-  padding: 15px 32px;
-  display: inline-block;
-  font-size: 16px;
-  justify-content: center;
+ .custom-btn {
+  color: #fff;
+  width: 17 0px;
   height: 80px;
-  background-color: #37E2D5;
-  border-radius: 50%;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.reset-button {
+  border: 1px solid #fff;
+  box-shadow: 0 0 5px #ff9aff, 0 0 5px #ff9aff inset;
+  color: #ff9aff;
+  background: #000;
+  z-index: 2;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.reset-button:after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #ff9aff;
+  transition: all 0.3s ease;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+.reset-button:hover {
+  color: #fff;
+}
+.reset-button:hover:after {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+@keyframes pulsate {
+ 
+  100% {
+
+    text-shadow:
+    0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 100px #0ff;
 
 }
+
+0% {
+
+  text-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px #0ff,
+  0 0 45px #0ff,
+  0 0 55px #0ff,
+  0 0 70px #0ff,
+  0 0 80px #0ff;
+
+}}
