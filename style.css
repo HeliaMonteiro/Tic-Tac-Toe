@@ -2,11 +2,14 @@ body {
   display: flex;
   flex-direction:column;
   align-items: center;
-  background-image: url('https://media2.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif?cid=ecf05e47ct3bo5lx8oeep6k422clkj49fxg2029p11wptbkb&rid=giphy.gif&ct=g');
+  background-image: url('https://media2.giphy.com/media/elcAvTEXkG02d17sr7/giphy.gif?cid=ecf05e47m55f2kbjnchkj63963jfbup6j1jkk0nhzn9m1nlb&rid=giphy.gif&ct=g');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+ 
+ 
 
 
+  
 }
 
 .container {
@@ -15,7 +18,6 @@ body {
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 100px 100px;
   cursor:pointer;
-  max-width: 300px;
   color: white;
 }
 
@@ -45,16 +47,17 @@ p {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  height: 100px;
-  width: 100px;
-  box-shadow: 0 -1px 15px 3px #0ff
+  height: 90px;
+  width: 90px;
+  border-radius: 80%;
+  box-shadow: 0 -1px 15px 10px #0ff
 }
 
 
 .game-result {
   margin-top: 100px;
   margin-bottom: 50px;
-}
+ }
 
 .reset-button {
   color:5800FF;
