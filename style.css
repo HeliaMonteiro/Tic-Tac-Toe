@@ -2,6 +2,9 @@ body {
   display: flex;
   flex-direction:column;
   align-items: center;
+  background-image: url('https://media2.giphy.com/media/U3qYN8S0j3bpK/giphy.gif?cid=ecf05e47ct3bo5lx8oeep6k422clkj49fxg2029p11wptbkb&rid=giphy.gif&ct=g');
+  background-repeat: no-repeat;
+  background-size: 100%;
 
 
 }
@@ -13,11 +16,22 @@ body {
   grid-template-rows: 100px 100px 100px;
   cursor:pointer;
   max-width: 300px;
+  color: white;
 }
 
 h1 {
+  font-size: 5rem;
   margin: 50px;
-  color: #37E2D5;
+  color: #fff;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #0ff,
+  0 0 82px #0ff,
+  0 0 92px #0ff,
+  0 0 80px #0ff,
+  0 0 100px #0ff;
 }
 
 p {
@@ -33,20 +47,17 @@ p {
   margin-top: 50px;
   height: 100px;
   width: 100px;
-  
-}
- 
-.right-border {
-   border-right:0.3rem solid #590696;
+  box-shadow: 0 -1px 15px 3px #0ff
 }
 
-.bottom-border {
-  border-bottom: 0.3rem solid #C70A80;
+
+.game-result {
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .reset-button {
-  color: black;
-  margin-top: 150px;
+  color:5800FF;
   padding: 15px 32px;
   display: inline-block;
   font-size: 16px;
