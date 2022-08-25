@@ -11,7 +11,6 @@ Tic-tac-toe, Xs and Os is a classic paper-and-pencil game for two players who ta
 * It is a easy and simple game, you  just need to click in one off the round spaces to start play.
 * Try to make a sequence of marks in a horizontal, vertical, or diagonal to win.
 
-
 ## ✏️ Planning & Problem Solving
 
 * I did start taking notes what I need to do and breaking it down into small steps.
@@ -34,4 +33,4 @@ Planning is a important part of the process and it really did help me to know wh
 I should have planning a better layout.
 ## ✅ Future features
 
-Improve the player experience and upgrade the layout add some cool animation.
+Improve the player experience and upgrade the layout to add some cool animation.

@@ -12,14 +12,13 @@ const howToWin = [
    [2, 5, 8],
 ]
 
-
 var turn = 0
 var counter = 0
 let hasWinner = false
 var container = document.querySelector('.container')
 container.addEventListener('click', function(event) {
-  let box = event.target
 
+  let box = event.target
   const index = Array.from(container.children).indexOf(box)
 
   if (box.tagName === 'DIV') {
@@ -27,9 +26,9 @@ container.addEventListener('click', function(event) {
       box.classList.add('disabled')
       if (turn === 0) {
 
-      box.textContent = 'X'
-      turn = 1
-      xPlayer.push(index)
+        box.textContent = 'X'
+        turn = 1
+        xPlayer.push(index)
 
       } else {
         box.textContent = '0'
@@ -38,41 +37,35 @@ container.addEventListener('click', function(event) {
       }
 
       counter = counter + 1 
-
       howToWin.forEach(howToWin => {
         const xWin = howToWin.every(state => xPlayer.includes(state))
         const oWin = howToWin.every(state => oPlayer.includes(state))
-
-          if(xWin === true) {
-            hasWinner = true
-            var gameResult = document.querySelector('.game-result')
-            var winner = document.createElement('p')
-            winner.textContent = 'Congrats player X, you are the winner!'
-            gameResult.appendChild(winner)
-          }
+        if(xWin === true) {
+          hasWinner = true
+          var gameResult = document.querySelector('.game-result')
+          var winner = document.createElement('p')
+          winner.textContent = 'Congrats player X, you are the winner!'
+          gameResult.appendChild(winner)
+        }
           
-  
-          if (oWin === true) {
-            hasWinner = true
-            var gameResult = document.querySelector('.game-result')
-            var winner = document.createElement('p')
-            winner.textContent = 'Congrats player 0, you are the winner!'
-            gameResult.appendChild(winner)
-          }
-
-        
+        if (oWin === true) {
+          hasWinner = true
+          var gameResult = document.querySelector('.game-result')
+          var winner = document.createElement('p')
+          winner.textContent = 'Congrats player 0, you are the winner!'
+          gameResult.appendChild(winner)
+        }
       })
 
-      if(document.querySelectorAll('.disabled').length === 9 && hasWinner === false) {
-        hasWinner = true
-        var gameResult = document.querySelector('.game-result')
-          var winner = document.createElement('p')
-          winner.textContent = 'Draw!'
-          gameResult.appendChild(winner)
+    if(document.querySelectorAll('.disabled').length === 9 && hasWinner === false) {
+      hasWinner = true
+      var gameResult = document.querySelector('.game-result')
+      var winner = document.createElement('p')
+      winner.textContent = 'Draw!'
+      gameResult.appendChild(winner)
       } 
     }
-
-      }
+  }
   
 })
 
@@ -81,8 +74,8 @@ reset.addEventListener('click', function(event) {
   for(let i = 0; i < container.children.length; i++) {
     container.children[i].textContent = ''
     container.children[i].classList.remove('disabled')
-    
   }
+
   xPlayer = []
   oPlayer = []
   hasWinner = false
@@ -92,6 +85,3 @@ reset.addEventListener('click', function(event) {
 })
 
 
-
-
-// Ok, it is working. 

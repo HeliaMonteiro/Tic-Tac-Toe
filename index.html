@@ -1,35 +1,3 @@
-<!--Project 1 - TIC TAC TOE - GAME - Tuesday - 
-  23/08/2022
-
-Planning:
-
-1. It has to have 9 clickable grids
-2. I have to define 2 players = 0 and x
-3. The game stars clicking in any of the 9 grids
-4. After a grid be clicked it can't be clicked again (blocked)
-5. It needs to alternate turns, the same player can't do consecutive click
-6. The turns need to keep alternating until all 9 grid has been clicked or there is a winner.
-7. Then I need to check if there is 3x 0 or x align in a row, a column, or diagonally
-8. If there is display: the winner.
-9. If not display: Draw.
-10. Restart the game clicking in a button.
-
-My tasks
-
-1. Create a HTML document and a CSS style file
-2. Header with tittle and welcome phrase
-3. A div container and 9 divs or input inside to be the grids
-4. Create a button to restart the game
-5. Create a css style doc
-6. Do all style in the CSS file
-7. Create a JS file
-8. Create a constant variable for our 0 and x
-9. Use querySelector to select DOM object (divs)
-10. Add x or 0 in the DOM object
-
-
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,9 +11,8 @@ My tasks
 </head>
 
 <body>
-
-    <h1>Tic Tac Toe</h1>
-    <p>To start to play, just click in one grid</p>
+  <h1>Tic Tac Toe</h1>
+  <p>To start to play, just click in one grid</p>
   <div class="container">
     <div class="grid right-border bottom-border"></div>
     <div class="grid right-border bottom-border"></div>
@@ -59,13 +26,12 @@ My tasks
     <i class="fa-duotone fa-robot-astromech"></i>
   </div>
   <div class="game-result">
-  <div class="winner"></div>
-  <div class="draw"></div>
+    <div class="winner"></div>
+    <div class="draw"></div>
   </div>
   <div class="winner"></div>
   <div class="draw"></div>
   <button class="custom-btn reset-button">Play Again</button>
-
 </body>
 </html>
 
