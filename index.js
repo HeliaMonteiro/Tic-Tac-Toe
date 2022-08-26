@@ -13,7 +13,7 @@ const howToWin = [
 ]
 
 var turn = 0
-var counter = 0
+var counter = 0 
 let hasWinner = false
 var container = document.querySelector('.container')
 container.addEventListener('click', function(event) {
