@@ -19,18 +19,19 @@ Tic-tac-toe, Xs and Os is a classic paper-and-pencil game for two players who ta
 
 ![alt text]( https://images.unsplash.com/photo-1589561253898-768105ca91a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2338&q=80)
 
-## 🚀 Cool tech
+## :nerd_face:Cool tech
 
 * I'm using HTML, Javascript and CSS.
 
-## 😱 Bugs to fix 💩
+## Bugs to fix :hammer_and_wrench: :firecracker:
 
 * If you click too fast or too many times in the external div it'll break. 
 
-### 😭 Lessons learnt
+### :mending_heart: Lessons learnt
 
 Planning is a important part of the process and it really did help me to know what I need to do.
 I should have planning a better layout.
-## ✅ Future features
+
+## ✅ Future features :star_struck: 
 
 Improve the player experience and upgrade the layout to add some cool animation.
