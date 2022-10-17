@@ -8,14 +8,15 @@ Tic-tac-toe, Xs and Os is a classic paper-and-pencil game for two players who ta
 ## :page_facing_up: About 
 
 
-* It is a easy and simple game, you  just need to click in one off the round spaces to start play.
+* It is an easy and simple game, you just need to click in one of the round spaces to start playing.
 * Try to make a sequence of marks in a horizontal, vertical, or diagonal to win.
 
 ## :woman_technologist: Planning & Problem Solving
 
-* I did start taking notes what I need to do and breaking it down into small steps.
-* After that I did planning my tasks to achieve the result that I was looking for.
-* The game starts clicking in any of the empty grids, X or 0 is placed where is clicked and that grid become blocked. It take turns and verify for winner or draw. After the result the player can click in the button to play again.
+* I did start taking notes on what I needed to do and breaking it down into small steps.
+* After that, I did planning my tasks to achieve the result that I was looking for.
+* The game starts clicking in any of the empty grids, X or 0 is placed where is clicked and that grid becomes blocked.
+* It takes turns and verifies for the winner or draw. After the result, the player can click on the button to play again.
 
 
 [![20221015-194911.jpg](https://i.postimg.cc/hvPTWB1Q/20221015-194911.jpg)](https://postimg.cc/vgkcfCjG)
